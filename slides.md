@@ -87,10 +87,32 @@ Likely will not work due to intricate network of dependencies.
  * https://dataverse.harvard.edu/dataverse/harvard/?q=fileMd5%3A7d62417b5b689ed91dcd25f10c9c2132
  * ```preston cat --remote https://dataverse.harvard.edu hash://md5/7d62417b5b689ed91dcd25f10c9c2132```
  * ```preston cat --remote https://dataverse.org hash://md5/7d62417b5b689ed91dcd25f10c9c2132```
- * ```preston cat --remote https://linker.bio,https://databverse.org hash://md5/7d62417b5b689ed91dcd25f10c9c2132```
+ * ```preston cat --remote https://linker.bio,https://dataverse.org hash://md5/7d62417b5b689ed91dcd25f10c9c2132```
  
+## Let Us Carry Our Cat Pictures Into The Future...
 
+```
+preston cat\
+ --remote "https://dataverse.org"\
+ hash://md5/7d62417b5b689ed91dcd25f10c9c2132\
+ > cat.jpg
+```
 
+![Harvard Kitty](img/cat.jpg)
+
+---
+
+## Guiding Questions
+
+ * How do *you* cite data?
+ * How do you look up cited data *now*?
+ * How do you look up cited data *40 years from now*?
+
+---
+
+#Extra
+
+---
 
 ## Internet Is Designed For *Exchanging* Information 
 
@@ -122,22 +144,4 @@ Darwin, C. 1859. On the Origin of Species. John Murray.
 
 ---
 
-## Let Us Preserve the Kitties into the Future...
-
-```
-preston cat\
- --remote "https://dataverse.org"\
- hash://md5/7d62417b5b689ed91dcd25f10c9c2132\
- > cat.jpg
-```
-
-![Harvard Kitty](img/cat.jpg)
-
----
-
-## Guiding Questions
-
- * How do *you* cite data?
- * How do you look up cited data *now*?
- * How do you look up cited data *40 years from now*?
 
